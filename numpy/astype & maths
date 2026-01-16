@@ -1,0 +1,23 @@
+import numpy as np
+arr=np.array([2.2,2.5,3.2,3.5])
+print(arr.dtype)
+int_arr=arr.astype(int)
+print(int_arr.dtype)
+
+#maths
+arr=np.array([5,6,7])
+print(arr+5)
+print(arr-5)
+print(arr*2)
+print(arr/2)
+print(arr//2)
+print(arr%2)
+print(arr**2)
+print(np.sum(arr))
+print(np.max(arr))
+print(np.min(arr))
+print(np.average(arr))
+print(np.median(arr))
+print(np.std(arr))
+print(np.var(arr))
+print(np.mean(arr))
