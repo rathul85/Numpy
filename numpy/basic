@@ -1,0 +1,37 @@
+import numpy as np
+temperatures=np.array([32,33,34,35,36])
+average=np.mean(temperatures)
+print(average)
+
+temperatures=[32,33,34,35,36]
+total_temp=0
+for i in temperatures:
+    total_temp+=i
+average=total_temp/len(temperatures)
+print(average)
+
+
+#numpy using array instead of list
+python_list=[1,2,3,4,5,6,7,8,9]
+print(python_list)
+#output:[1, 2, 3, 4, 5, 6, 7, 8, 9]
+num_py=np.array([1,2,3,4,5,6,7,8,9])
+print(num_py)
+#output:[1 2 3 4 5 6 7 8 9]
+
+
+#1d array
+num_py=np.array([1,2,3,4,5,6,7,8,9])
+print(num_py)
+#output:[1 2 3 4 5 6 7 8 9]
+#2d array
+arr_2d=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(arr_2d)
+# output:[[1 2 3]
+#         [4 5 6]
+#         [7 8 9]]
+#multidimension
+matrix=np.array([[1,2,3],[4,5,6]])
+print(matrix)
+#output:[[1 2 3]
+#       [4 5 6]
